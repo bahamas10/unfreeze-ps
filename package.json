@@ -1,0 +1,28 @@
+{
+  "name": "photoshop-unfreezer",
+  "description": "Unfreeze photoshop on macs",
+  "version": "0.0.0",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "main": "./index.html",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/photoshop-unfreezer.git"
+  },
+  "scripts": {
+    "test": "for f in tests/*; do echo \"> $f\"; node \"$f\" || exit 1; echo; done; echo 'passed!'; exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+  ],
+  "window": {
+    "toolbar": false,
+    "width": 450,
+    "height": 300
+  }
+}

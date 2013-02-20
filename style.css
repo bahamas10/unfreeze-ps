@@ -1,0 +1,27 @@
+html, body, * {
+	font-family: courier new;
+	background-color: #111;
+	color: #ddd;
+}
+#title {
+	font-size: 18pt;
+	margin: 10px;
+}
+
+#content {
+}
+
+#refresh {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+#refresh, #unfreezebtn {
+	padding: 4px;
+	border: 1px solid white;
+}
+
+a {
+	text-decoration: none;
+}
