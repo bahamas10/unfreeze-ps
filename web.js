@@ -1,3 +1,4 @@
+var gui = require('nw.gui');
 var ps = require('./lib/ps');
 var photoshop;
 
@@ -6,6 +7,14 @@ var title;
 var unfreezebtn;
 
 function init() {
+  var links = document.getElementsByClassName('external');
+  for (var i in links) {
+    var link = links[i];
+    link.onclick = function() {
+      gui.Shell.openExternal(this.href);
+      return false;
+    };
+  }
   content = document.getElementById('content');
   title = document.getElementById('title');
   unfreezebtn = document.getElementById('unfreezebtn');

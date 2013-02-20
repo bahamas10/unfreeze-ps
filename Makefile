@@ -1,4 +1,4 @@
-NAME = unfreeze-ps
+NAME = `json name < package.json`
 
 FILE = $(NAME).nw
 APP = $(NAME).app

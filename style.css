@@ -12,9 +12,16 @@ html, body, * {
 }
 
 #refresh {
-	position: absolute;
+	position: fixed;
 	bottom: 5px;
 	right: 5px;
+}
+#author {
+	position: fixed;
+	bottom: 5px;
+	left: 5px;
+	font-size: 8pt;
+	color: #999;
 }
 
 #refresh, #unfreezebtn {
@@ -24,4 +31,5 @@ html, body, * {
 
 a {
 	text-decoration: none;
+	color: #ddd;
 }
