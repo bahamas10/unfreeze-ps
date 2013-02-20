@@ -34,7 +34,6 @@ function run() {
 
     // check ps for photoshop
     processes.forEach(function(proc) {
-      photoshop = proc; // XXX
       if (proc.args.indexOf('/Applications/Adobe Photoshop') !== 0) return;
       if (proc.args.indexOf('/Contents/MacOS/Adobe Photoshop') === -1) return;
       photoshop = proc;
