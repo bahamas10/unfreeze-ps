@@ -7,7 +7,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bahamas10/photoshop-unfreezer.git"
+    "url": "git://github.com/bahamas10/unfreeze-ps.git"
   },
   "scripts": {
     "test": "for f in tests/*; do echo \"> $f\"; node \"$f\" || exit 1; echo; done; echo 'passed!'; exit 0"

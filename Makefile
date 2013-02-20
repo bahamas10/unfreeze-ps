@@ -1,9 +1,9 @@
-NAME = `json name < package.json`
+NAME = $(shell json name < package.json)
 
 FILE = $(NAME).nw
 APP = $(NAME).app
 INFO = $(APP)/Contents/Info.plist
-ZIP = $(NAME)-`json version < package.json`.app.zip
+ZIP = $(NAME)-$(shell json version < package.json).app.zip
 
 all: clean zip bundle
 clean:
