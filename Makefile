@@ -9,6 +9,7 @@ all: clean zip bundle
 clean:
 	rm -f $(FILE)
 	rm -rf $(APP)
+	rm -f *.zip
 zip:
 	zip -r $(FILE) *
 bundle:
