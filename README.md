@@ -8,7 +8,7 @@ Installation
 
 Download the latest version (v0.0.0) here
 
-http://www.daveeddy.com/static/unfreeze-ps-0.0.0.app.zip
+http://files.daveeddy.com/unfreeze-ps-0.0.0.app.zip
 
 ...and run the app.
 
