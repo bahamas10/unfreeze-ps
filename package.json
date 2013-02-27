@@ -5,6 +5,9 @@
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "main": "./index.html",
   "contributors": [],
+  "bin": {
+    "unfreeze-ps": "./unfreeze-ps-cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/bahamas10/unfreeze-ps.git"
