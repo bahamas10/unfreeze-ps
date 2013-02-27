@@ -1,6 +1,6 @@
 NAME = $(shell json name < package.json)
 
-FILE = $(NAME).nw
+FILE = app.nw
 APP = $(NAME).app
 INFO = $(APP)/Contents/Info.plist
 ZIP = $(NAME)-$(shell json version < package.json).app.zip
