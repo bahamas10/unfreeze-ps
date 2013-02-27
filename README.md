@@ -12,6 +12,8 @@ http://files.daveeddy.com/unfreeze-ps-0.0.0.app.zip
 
 ...and run the app.
 
+![screenshot1](http://www.daveeddy.com/static/media/github/unfreeze-ps.png)
+
 FAQ
 ---
 
