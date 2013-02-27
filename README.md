@@ -36,6 +36,14 @@ No.  If your photoshop is beach balling for another reason, this will not do any
 No.  `SIGCONT` is a harmless signal to send if the process is not paused; it'll be as-if
 nothing has happened.  Worst-case scenario: this program does nothing.
 
+Command Line
+------------
+
+Download the command line app instead of the .app
+
+    $ npm install -g unfreeze-ps
+    $ unfreeze-ps
+
 Development
 -----------
 
