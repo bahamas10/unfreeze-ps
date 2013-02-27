@@ -42,7 +42,7 @@ Development
 This program is written in [Node.js](http://nodejs.org), and bundled as an app with
 [node-webkit](https://github.com/rogerwang/node-webkit).
 
-Bundling instructions are in the Makefile for testing
+Bundling instructions are in the Makefile
 
 License
 -------
