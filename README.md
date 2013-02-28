@@ -6,9 +6,9 @@ Unfreeze a beach-balling Photoshop on Mac
 Installation
 ------------
 
-Download the latest version (v0.0.0) here
+Download the latest version here
 
-http://files.daveeddy.com/unfreeze-ps-0.0.0.app.zip
+http://files.daveeddy.com/unfreeze-latest.zip
 
 ...and run the app.
 
