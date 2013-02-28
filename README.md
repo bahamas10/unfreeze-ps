@@ -54,6 +54,12 @@ This program is written in [Node.js](http://nodejs.org), and bundled as an app w
 
 Bundling instructions are in the Makefile
 
+Real Life Stories
+-----------------
+
+- http://skyeillustration.com/post/66-photoshop-trick
+
+
 License
 -------
 
