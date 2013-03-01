@@ -3,12 +3,12 @@ unfreeze-ps
 
 Unfreeze a beach-balling Photoshop on Mac
 
+![icon](/icon.png)
+
 Installation
 ------------
 
 Download the latest version here
-
-![icon](/icon.png)
 
 http://files.daveeddy.com/unfreeze-latest.zip
 
