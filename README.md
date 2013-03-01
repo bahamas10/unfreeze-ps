@@ -51,7 +51,7 @@ Legacy
 This program was originally written in [Node.js](http://nodejs.org), and bundled as an app with
 [node-webkit](https://github.com/rogerwang/node-webkit).
 
-This is found in the `legacy` directorie
+This is found in the `legacy` directory
 
 License
 -------
