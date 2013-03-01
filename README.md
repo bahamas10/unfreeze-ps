@@ -5,6 +5,8 @@ Unfreeze a beach-balling Photoshop on Mac
 
 ![icon](/icon.png)
 
+disclaimer: i'm an amazing designer, and this was made 100% in apple preview.
+
 Installation
 ------------
 
