@@ -1,20 +1,15 @@
-NAME = $(shell json name < package.json)
+NAME = unfreeze-ps
 
-FILE = app.nw
+FILE = $(NAME).sh
 APP = $(NAME).app
-INFO = $(APP)/Contents/Info.plist
-ZIP = $(NAME)-$(shell json version < package.json).app.zip
+ZIP = $(NAME)-$(shell git tag -l | tail -1).app.zip
 
-all: clean zip bundle
+all: clean bundle
 clean:
-	rm -f $(FILE)
 	rm -rf $(APP)
 	rm -f *.zip
-zip:
-	zip -r $(FILE) *
 bundle:
-	cp -r /Applications/node-webkit.app $(APP)
-	mv $(FILE) $(APP)/Contents/Resources
-	sed -i '' 's/>node-webkit/>$(NAME)/' $(INFO)
-	mv $(APP)/Contents/MacOS/node-webkit $(APP)/Contents/MacOS/$(NAME)
+	mkdir -p $(APP)/Contents/MacOS
+	mv $(FILE) $(APP)/Contents/MacOS/$(NAME)
+	chmod +x $(APP)/Contents/MacOS/$(NAME)
 	zip -r $(ZIP) $(APP)

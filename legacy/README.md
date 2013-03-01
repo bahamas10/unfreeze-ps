@@ -10,7 +10,9 @@ Download the latest version here
 
 http://files.daveeddy.com/unfreeze-latest.zip
 
-unzip, and run the app
+...and run the app.
+
+![screenshot1](http://www.daveeddy.com/static/media/github/unfreeze-ps.png)
 
 FAQ
 ---
@@ -36,18 +38,27 @@ No.  If your photoshop is beach balling for another reason, this will not do any
 No.  `SIGCONT` is a harmless signal to send if the process is not paused; it'll be as-if
 nothing has happened.  Worst-case scenario: this program does nothing.
 
+Command Line
+------------
+
+Download the command line app instead of the .app
+
+    $ npm install -g unfreeze-ps
+    $ unfreeze-ps
+
+Development
+-----------
+
+This program is written in [Node.js](http://nodejs.org), and bundled as an app with
+[node-webkit](https://github.com/rogerwang/node-webkit).
+
+Bundling instructions are in the Makefile
+
 Real Life Stories
 -----------------
 
 - http://skyeillustration.com/post/66-photoshop-trick
 
-Legacy
-------
-
-This program was originally written in [Node.js](http://nodejs.org), and bundled as an app with
-[node-webkit](https://github.com/rogerwang/node-webkit).
-
-This is found in the `legacy` directorie
 
 License
 -------
