@@ -10,6 +10,6 @@ clean:
 	rm -f *.zip
 bundle:
 	mkdir -p $(APP)/Contents/MacOS
-	mv $(FILE) $(APP)/Contents/MacOS/$(NAME)
+	cp $(FILE) $(APP)/Contents/MacOS/$(NAME)
 	chmod +x $(APP)/Contents/MacOS/$(NAME)
 	zip -r $(ZIP) $(APP)
