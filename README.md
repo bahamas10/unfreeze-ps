@@ -7,6 +7,8 @@ Unfreeze a beach-balling Photoshop on Mac
 
 disclaimer: i'm an amazing designer, and this icon was made 100% in apple preview.
 
+http://bahamas10.github.com/unfreeze-ps/
+
 Installation
 ------------
 
