@@ -18,7 +18,7 @@ displayalert() {
 }
 
 
-commands=$(ps ax -o pid,state,command | grep '^/Applications/Adobe Photoshop')
+commands=$(ps ax -o pid,command | grep '/Applications/Adobe Photoshop' | grep '/MacOS/Adobe Photoshop')
 
 if [[ -z $commands ]]; then
 	displayalert 'unfreeze-ps' 'no photoshop process was found running'
