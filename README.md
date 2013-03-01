@@ -8,6 +8,8 @@ Installation
 
 Download the latest version here
 
+![icon](/icon.png)
+
 http://files.daveeddy.com/unfreeze-latest.zip
 
 unzip, and run the app
