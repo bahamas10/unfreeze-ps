@@ -27,3 +27,4 @@ fi
 
 awk '{ print $1 }' <<< "$commands" | xargs kill -SIGCONT
 displayalert 'unfreeze-ps' 'sent continue signal to photoshop'
+exit 0 # needed for app
