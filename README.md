@@ -1,5 +1,5 @@
-unfreeze-ps
-===========
+Unfreeze Photoshop
+==================
 
 Unfreeze a beach-balling Photoshop on Mac
 
@@ -7,14 +7,14 @@ Unfreeze a beach-balling Photoshop on Mac
 
 disclaimer: i'm an amazing designer, and this icon was made 100% in apple preview.
 
-http://bahamas10.github.com/unfreeze-ps/
+http://unfreezephotoshop.daveeddy.com
 
 Installation
 ------------
 
 Download the latest version here
 
-http://files.daveeddy.com/unfreeze-latest.zip
+http://unfreezephotoshop.daveeddy.com/unfreeze-photoshop-latest.zip
 
 unzip, and run the app
 
