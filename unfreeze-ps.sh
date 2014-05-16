@@ -4,6 +4,7 @@
 #
 # Author: Dave Eddy <dave@daveeddy.com>]
 # Date: 2/28/13
+# License: MIT
 
 displayalert() {
 	/usr/bin/osascript <<- EOF
