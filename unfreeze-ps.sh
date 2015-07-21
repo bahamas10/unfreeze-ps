@@ -2,7 +2,7 @@
 #
 # unfreeze photoshop in bash
 #
-# Author: Dave Eddy <dave@daveeddy.com>]
+# Author: Dave Eddy <dave@daveeddy.com>
 # Date: 2/28/13
 # License: MIT
 
